@@ -44,7 +44,7 @@ function App() {
         <div className={`${isDarkMode ? 'bg-gray-800' : 'bg-white'} p-6 rounded-xl shadow-lg hover:shadow-xl transition-shadow`}>
           <div className="flex items-center gap-3 mb-2">
             <FileText className="text-indigo-600" />
-            <h3 className={`text-lg font-semibold ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>Pending Evaluations</h3>
+            <h3 className={`text-lg font-semibold ${isDarkMode ? 'text-white' : 'text-gray-800'}`}>Pending Evaluations Obhai</h3>
           </div>
           <p className="text-3xl font-bold text-indigo-600">24</p>
         </div>
@@ -420,7 +420,7 @@ function App() {
               <Menu size={24} />
             </button>
             <Brain size={32} className="text-emerald-400" />
-            <h1 className="text-2xl font-bold text-white">AI Assignment Evaluation</h1>
+            <h1 className="text-2xl font-bold text-white">AI Assignment OK</h1>
           </div>
           <div className="flex items-center gap-4 text-white">
             <UserCircle size={24} />
